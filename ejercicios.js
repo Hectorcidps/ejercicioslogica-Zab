@@ -94,7 +94,8 @@ turnsPages(150,85);
 
 /* EJERCICIO 3
 3. Birds in migration
-- You are watching birds migrate in the country, taking notes on the different types of birds you encounter by setting their ID on an array. If more than 1 type has been spotted that maximum amount, return the smallest of their IDs.
+- You are watching birds migrate in the country, taking notes on the different types of birds you encounter 
+by setting their ID on an array. If more than 1 type has been spotted that maximum amount, return the smallest of their IDs.
     - Input: ```arr[4,4,2,2,3]``` 
         - Constrints: 2 < arr <= 2x10^5, where ```n``` inside the array is 0 < n <= 5
     - Output: Type: 2
@@ -109,3 +110,18 @@ Sample output:
 
 Type: 1
 */ 
+
+const id= avesMigratorias = [
+  'Aguila real', 'Zopilote', 'Pelicano', 'Pato Pekines', 'Quetzal'
+];
+console.log(avesMigratorias); 
+
+let sortavesMigratorias = avesMigratorias.sort();
+console.log(avesMigratorias); 
+avesMigratorias.forEach(elemento => console.log(elemento));
+
+const frecuencias = [1,4,4,2,1,1,1];
+    function frecuencias (avesMigratorias) {
+        if(id <= 0, avesMigratorias1 <= 2*10^5 + `3`, 0 < 3 <=5);
+    }
+console.log(avesMigratorias(1,4))
